@@ -66,7 +66,7 @@ const incrementButton = document.querySelector(
   'button[data-action="increment"]',
 );
 const decrementButton = document.querySelector(
-  'button[data-action="decremenet"]',
+  'button[data-action="decrement"]',
 );
 
 const updateCounter = () => (valueSpan.textContent = counterValue);
